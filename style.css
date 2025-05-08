@@ -1,0 +1,343 @@
+/* General Window and Layout */
+window {
+    background-color: #fafafa;
+}
+
+/* Dialogs */
+dialog {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Scrolled Window */
+scrolledwindow {
+    background: #ffffff;
+    border: 1px solid #ccc;
+}
+
+scrolledwindow scrollbar {
+    background: #f0f0f0;
+    border-radius: 3px;
+}
+
+/* Header Bar */
+headerbar {
+    min-height: 20px;
+    padding: 2px 25px;
+    background-color: #5e81ac;
+    color: white;
+}
+
+headerbar button {
+    background-image: none;
+    background-color: #4a6b8c;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 0 10px;
+    margin: 0 2px;
+    color: white;
+    border-radius: 3px;
+}
+
+headerbar image {
+    min-height: 20px;
+    min-width: 24px;
+    padding: 0;
+}
+
+/* Labels */
+label {
+    font-size: 16px;
+    color: #333333;
+}
+
+.title_label, .title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.project_label {
+    font-size: 46px;
+    font-weight: bold;
+    color: #e45050;
+    margin: 10px;
+}
+
+.header_label {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333333;
+    margin: 10px;
+    padding: 10px;
+}
+
+.default-label {
+    color: red;
+    font-weight: bold;
+}
+
+.success-label {
+    color: green;
+    font-weight: bold;
+}
+
+.error-label {
+    color: red;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 26px;
+    color: #e45050;
+    margin: 10px;
+    padding: 10px;
+    font-style: italic;
+}
+
+/* Entries */
+entry {
+    padding: 7px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: #ffffff;
+}
+
+entry:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Buttons */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 3px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.ok-button {
+    background-image: none;
+    background-color: #153b5c;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.ok-button:hover {
+    background-color: #3b5864;
+}
+
+.submit-button {
+    background-image: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.submit-button:hover {
+    background-color: #759785;
+    border: 2px solid #333333;
+}
+
+.nav-button {
+    background-image: none;
+    background-color: #2196F3;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 3px;
+}
+.nav-button:hover {
+    background-color: #1976D2;
+}
+
+.menu-button {
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius: 3px;
+    background-color: #5e81ac;
+    color: white;
+}
+
+.menu-button:hover {
+    background-color: #4a6b8c;
+}
+
+.yes-button {
+    background-image: none;
+    background-color: #3695e9;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.yes-button:hover {
+    background-color: #70acc3;
+}
+
+.no-button {
+    background-image: none;
+    background-color: #c65667;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.no-button:hover {
+    background-color: #d37979;
+}
+
+.back-button {
+    background-image: none;
+    background-color: #070707;
+    font-weight: bold;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.back-button:hover {
+    background-color: #252525;
+}
+
+.delete-button {
+    background-image: none;
+    background-color: #070707;
+    color: #fafafa;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.delete-button:hover {
+    background-color: #212121;
+}
+
+.modify-button {
+    background-image: none;
+    background-color: #0288d1;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.modify-button:hover {
+    background-color: #16737d;
+    border: 2px solid #213030;
+}
+
+#login-button {
+    background: #5e81ac;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+button.profile-button {
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 5px;
+    background-color: #5e81ac;
+    color: white;
+}
+
+button.profile-button:hover {
+    background-color: #4a6b8c;
+}
+
+/* Menus */
+menu {
+    padding: 5px;
+    background-color: #a7cefd;
+    border: 1px solid #ccc;
+}
+
+menuitem {
+    padding: 5px 20px;
+    font-size: 14px;
+    color: #333333;
+}
+
+menuitem:hover {
+    background-color: #90b4e0;
+}
+
+/* Images */
+.header_image {
+    min-width: 300px;
+    min-height: 200px;
+    padding: 10px;
+}
+
+.gif-image {
+    min-width: 150px;
+    min-height: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.social-gif {
+    min-width: 50px;
+    min-height: 50px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Tables */
+.record-table {
+    background-image: none;
+    background-color: #ffffff;
+    font-size: 14px;
+    color: #070707;
+    border: 1px solid #ccc;
+}
+
+treeview#student-list {
+    font-size: 12pt;
+    color: #000000;
+}
+
+treeview#student-list header {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    padding: 4px;
+    color: #070707;
+}
+
+treeview#student-list row:nth-child(even) {
+    background: #f9f9f9;
+}
+
+treeview#student-list row:selected {
+    background: #BBDEFB;
+    color: #000000;
+}
+
+treeview#student-list cell {
+    padding: 8px; /* Increase padding */
+}
+
+treeview#student-list column:nth-child(2) cell { /* Name column */
+    font-style: italic;
+}
+
+/* Additional Elements */
+separator {
+    background: #ccc;
+    min-height: 1px;
+}
+
+box {
+    padding: 10px;
+}
